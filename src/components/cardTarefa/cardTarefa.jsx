@@ -22,6 +22,12 @@ export function CardTarefa({
     setTexto(e.target.value)
   }
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      aoAdicionarTarefa(titulo, texto)
+    }
+  }
+
   return (
     <div className={styles.cardStyle}>
       <div className={styles.container}>
@@ -31,6 +37,7 @@ export function CardTarefa({
           value={titulo}
           onChange={handleTituloChange}
           className={concluido ? styles.tituloConcluido : styles.titulo}
+          onKeyDown={handleKeyDown}
         />
         <div className={styles.conteudo}>
           <input
@@ -38,7 +45,9 @@ export function CardTarefa({
             placeholder="Digite a tarefa"
             value={texto}
             onChange={handleTextoChange}
-            className={concluido ? styles.textoConcluido : styles.texto} />
+            className={concluido ? styles.textoConcluido : styles.texto}
+            onKeyDown={handleKeyDown}
+          />
         </div>
       </div>
       {adicionar ?
@@ -62,11 +71,11 @@ export function CardTarefa({
         (
           <div className={styles.botaoContainer}>
             <button
-              className={styles.botaoConcluir}
+              className={concluido ? styles.botaoConcluirMarcado : styles.botaoConcluir}
               onClick={() => {
                 if (aoConcluirTarefa) {
                   aoConcluirTarefa(index);
-                  setConcluido(true)
+                  setConcluido(!concluido)
                 }
               }}
             >

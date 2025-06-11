@@ -94,7 +94,7 @@
 }
 
 .botaoConcluir {
-  background-color: lightsteelblue;
+  background-color: #666;
   color: #111;
   padding: 2.5rem 0.9rem 3rem .6rem;
   font-size: 3rem;
@@ -103,6 +103,20 @@
 
 .botaoConcluir:hover {
   background-color: steelblue;
+  color: #eee;
+  cursor: pointer;
+}
+
+.botaoConcluirMarcado {
+  background-color: lightseagreen;
+  color: #111;
+  padding: 2.5rem 0.9rem 3rem .6rem;
+  font-size: 3rem;
+  border: none;
+}
+
+.botaoConcluirMarcado:hover {
+  background-color: darkred;
   color: #eee;
   cursor: pointer;
 }
