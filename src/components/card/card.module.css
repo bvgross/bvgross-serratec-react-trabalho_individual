@@ -15,6 +15,7 @@
   color: #F5E7CE;
   text-shadow: 0 0 5px #f5e7ce;
   box-shadow: #F5E7CE 0px 45px 30px -12px inset, #F5E7CE 0px 18px 36px -18px inset;
+  transition: box-shadow 0.4s ease, text-shadow 0.4s ease, color 0.4s ease;
 }
 
 .titulo {

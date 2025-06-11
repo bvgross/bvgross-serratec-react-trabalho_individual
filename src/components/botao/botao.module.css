@@ -18,6 +18,7 @@
   /* box-shadow: 0 0 10px #F5E7CE; */
   text-shadow: 0 0 5px #f5e7ce;
   box-shadow: #F5E7CE90 0px 0px 13px 10px inset;
+  transition: box-shadow 0.4s ease, text-shadow 0.4s ease, color 0.4s ease;
 }
 
 .botaoLightStyle {
@@ -40,6 +41,7 @@
   box-shadow: 0 0 15px #7e9cd8;
   text-shadow: 0 0 5px #7e9cd8;
   box-shadow: #7e9cd8 15px 5px 15px 6px inset, #7e9cd8 0px 9px 15px -9px inset;
+  transition: box-shadow 0.4s ease, text-shadow 0.4s ease, color 0.4s ease;
 }
 
 
