@@ -1,0 +1,108 @@
+.cardStyle {
+  background-color: #444447;
+  height: 80px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+  box-shadow: 0 0 8px #222;
+  overflow: clip;
+  color: #9999a2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  padding: .5rem;
+  background-color: #222226;
+  font-size: 1.2rem;
+  border: none;
+  color: #eee;
+}
+
+.tituloConcluido {
+  padding: .5rem;
+  background-color: #222226;
+  font-size: 1.2rem;
+  border: none;
+  color: #eee;
+  text-decoration: line-through;
+}
+
+.titulo:focus {
+  outline: none;
+}
+
+.tituloConcluido:focus {
+  outline: none;
+}
+
+.conteudo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.texto {
+  padding: .5rem;
+  font-size: .9rem;
+  border: none;
+  background-color: transparent;
+  color: #eee;
+}
+
+.textoConcluido {
+  padding: .5rem;
+  font-size: .9rem;
+  border: none;
+  background-color: transparent;
+  color: #eee;
+  text-decoration: line-through;
+}
+
+.texto:focus {
+  outline: none;
+}
+
+.textoConcluido:focus {
+  outline: none;
+}
+
+.botaoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botaoAdicionar {
+  background-color: lightsteelblue;
+  color: #111;
+  padding: 2.5rem 0.9rem 3rem 1rem;
+  font-size: 3rem;
+  border: none;
+}
+
+.botaoAdicionar:hover {
+  background-color: steelblue;
+  color: #eee;
+  cursor: pointer;
+}
+
+.botaoConcluir {
+  background-color: lightsteelblue;
+  color: #111;
+  padding: 2.5rem 0.9rem 3rem .6rem;
+  font-size: 3rem;
+  border: none;
+}
+
+.botaoConcluir:hover {
+  background-color: steelblue;
+  color: #eee;
+  cursor: pointer;
+}

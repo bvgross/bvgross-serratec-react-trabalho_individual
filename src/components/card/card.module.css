@@ -1,0 +1,43 @@
+.cardStyle {
+  background-color: #444447;
+  height: 130px;
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  box-shadow: 0 0 8px #222;
+  overflow: clip;
+  color: #9999a2;
+}
+
+.cardStyle:hover {
+  cursor: pointer;
+  color: #F5E7CE;
+  text-shadow: 0 0 5px #f5e7ce;
+  box-shadow: #F5E7CE 0px 45px 30px -12px inset, #F5E7CE 0px 18px 36px -18px inset;
+}
+
+.titulo {
+  padding: .5rem;
+  background-color: #222226;
+  font-size: 1.2rem;
+}
+
+.conteudo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descricao {
+  padding: .5rem;
+  font-size: .9rem;
+}
+
+.confira {
+  font-size: .6rem;
+  padding: .5rem;
+  align-self: flex-end;
+  justify-self: flex-end;
+}

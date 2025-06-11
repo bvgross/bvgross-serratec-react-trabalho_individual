@@ -1,0 +1,17 @@
+.containerDarkStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #11111117;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  height: 100vh;
+}
+
+.containerLightStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbb;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  height: 100vh;
+}

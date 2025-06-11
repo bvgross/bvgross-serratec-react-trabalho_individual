@@ -1,0 +1,82 @@
+.botaoDarkStyle {
+  background-color: #222226;
+  color: #eee;
+  border: none;
+  padding: .3rem .5rem;
+  border-radius: 100%;
+  box-shadow: 0 0 8px #222;
+  color: #9999a2;
+  font-size: 1.5rem;
+  width: 120px;
+  height: 120px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.botaoDarkStyle:hover {
+  cursor: pointer;
+  color: #F5E7CE;
+  /* box-shadow: 0 0 10px #F5E7CE; */
+  text-shadow: 0 0 5px #f5e7ce;
+  box-shadow: #F5E7CE90 0px 0px 13px 10px inset;
+}
+
+.botaoLightStyle {
+  background-color: #ddd;
+  color: #eee;
+  border: none;
+  padding: .3rem .5rem;
+  border-radius: 100%;
+  box-shadow: 0 0 8px #888;
+  color: #9999a2;
+  font-size: 1.5rem;
+  width: 120px;
+  height: 120px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.botaoLightStyle:hover {
+  cursor: pointer;
+  color: #7e9cd8;
+  box-shadow: 0 0 15px #7e9cd8;
+  text-shadow: 0 0 5px #7e9cd8;
+  box-shadow: #7e9cd8 15px 5px 15px 6px inset, #7e9cd8 0px 9px 15px -9px inset;
+}
+
+
+.botaoPadraoDarkStyle {
+  background-color: transparent;
+  position: fixed;
+  margin: 1rem;
+  bottom: 0;
+  right: 0;
+  color: #eee;
+  border: none;
+  padding: .3rem .5rem;
+  border-radius: 5px;
+  color: #9999a2;
+}
+
+.botaoPadraoDarkStyle:hover {
+  cursor: pointer;
+  color: #F5E7CE;
+  text-shadow: 0 0 2px #f5e7ce;
+}
+
+.botaoPadraoLightStyle {
+  background-color: transparent;
+  position: fixed;
+  margin: 1rem;
+  bottom: 0;
+  right: 0;
+  color: #eee;
+  border: none;
+  padding: .3rem .5rem;
+  border-radius: 5px;
+  color: #666672;
+}
+
+.botaoPadraoLightStyle:hover {
+  cursor: pointer;
+  color: #7e9cd8;
+  text-shadow: 0 0 2px #7e9cd8;
+}
